@@ -3,7 +3,6 @@
 // const defaultClient = SibApiV3Sdk.ApiClient.instance;
 // const apiKey = defaultClient.authentications["api-key"];
 
-// apiKey.apiKey = "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";
 
 // // const apiInstance = new SibApiV3Sdk.EmailCampaignsApi();
 // var apiInstance = new SibApiV3Sdk.ContactsApi();
@@ -44,7 +43,6 @@
 //         templateId: 1,
 //         params,
 //         headers: {
-//           "api-key": "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",
 //           "content-type" : 'application/json',
 //           "accept": 'application/json'
 //         }
