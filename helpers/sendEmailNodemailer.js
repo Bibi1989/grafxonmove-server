@@ -6,7 +6,7 @@ const hbs = require('nodemailer-express-handlebars')
 const sendEmail = async (props) => {
   try {
     let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
+      host: "gmail",
       auth: {
         user: process.env.AUTH_EMAIL,
         pass: process.env.AUTH_PASSWORD,
@@ -40,7 +40,7 @@ const sendEmail = async (props) => {
 const sendContactEmail = async (props) => {
   try {
     let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
+      host: "gmail",
       auth: {
         user: process.env.AUTH_EMAIL,
         pass: process.env.AUTH_PASSWORD,
