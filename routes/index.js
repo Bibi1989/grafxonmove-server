@@ -49,7 +49,7 @@ router.post('/contact', async (req, res, ) => {
 
 router.get('/contacts', async (_req, res) => {
   try {
-    const data = await Subscriber.find({})
+    const data = await Contact.find({})
     res.json({status: 'success', data})
   } catch (error) {
     res.status(400).json({status: "error", error})
